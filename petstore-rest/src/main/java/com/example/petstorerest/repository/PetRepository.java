@@ -13,7 +13,7 @@ import java.util.List;
 
 @Repository
 @AllArgsConstructor
-public class PetRepository{
+public class PetRepository {
 
     private static final HashMap<Long, Pet> pets = new HashMap<>();
     private static final HashMap<Long, Category> categories = new HashMap<>();
